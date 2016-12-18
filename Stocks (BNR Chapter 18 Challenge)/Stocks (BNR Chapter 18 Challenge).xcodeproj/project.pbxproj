@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C640E0301DCC43B800B7187C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B48A981DAC113100462F8F /* main.m */; };
+		C640E0331DCC445600B7187C /* BNRStockHolding.h in Sources */ = {isa = PBXBuildFile; fileRef = C6B48A9F1DAC118100462F8F /* BNRStockHolding.h */; };
+		C663BC8F1DCD65B000EDF85D /* BNRForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = C663BC8E1DCD65B000EDF85D /* BNRForeignStockHolding.m */; };
+		C6B48AA11DAC118100462F8F /* BNRStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B48AA01DAC118100462F8F /* BNRStockHolding.m */; };
+		C6D8CDCD1DCE789300A0266B /* BNRPortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D8CDCC1DCE789300A0266B /* BNRPortfolio.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6B48A931DAC113100462F8F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C663BC8D1DCD65B000EDF85D /* BNRForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRForeignStockHolding.h; sourceTree = "<group>"; };
+		C663BC8E1DCD65B000EDF85D /* BNRForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRForeignStockHolding.m; sourceTree = "<group>"; };
+		C6B48A951DAC113100462F8F /* Stocks (BNR Chapter 18 Challenge) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stocks (BNR Chapter 18 Challenge)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B48A981DAC113100462F8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Stocks (BNR Chapter 18 Challenge)/main.m"; sourceTree = "<group>"; };
+		C6B48A9F1DAC118100462F8F /* BNRStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRStockHolding.h; path = "Stocks (BNR Chapter 18 Challenge)/BNRStockHolding.h"; sourceTree = "<group>"; };
+		C6B48AA01DAC118100462F8F /* BNRStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRStockHolding.m; path = "Stocks (BNR Chapter 18 Challenge)/BNRStockHolding.m"; sourceTree = "<group>"; };
+		C6D8CDCB1DCE789300A0266B /* BNRPortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPortfolio.h; sourceTree = "<group>"; };
+		C6D8CDCC1DCE789300A0266B /* BNRPortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPortfolio.m; sourceTree = "<group>"; };
+		C6DF37881DF0B94C0026E9DA /* Stocks (BNR Chapter 18 Challenge) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Stocks (BNR Chapter 18 Challenge)"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B48A921DAC113100462F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6B48A8C1DAC113100462F8F = {
+			isa = PBXGroup;
+			children = (
+				C6B48A981DAC113100462F8F /* main.m */,
+				C6B48A9F1DAC118100462F8F /* BNRStockHolding.h */,
+				C6B48AA01DAC118100462F8F /* BNRStockHolding.m */,
+				C663BC8D1DCD65B000EDF85D /* BNRForeignStockHolding.h */,
+				C663BC8E1DCD65B000EDF85D /* BNRForeignStockHolding.m */,
+				C6D8CDCB1DCE789300A0266B /* BNRPortfolio.h */,
+				C6D8CDCC1DCE789300A0266B /* BNRPortfolio.m */,
+				C6B48A971DAC113100462F8F /* Stocks (BNR Chapter 18 Challenge) */,
+				C6DF37881DF0B94C0026E9DA /* Stocks (BNR Chapter 18 Challenge) */,
+				C6B48A961DAC113100462F8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B48A961DAC113100462F8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B48A951DAC113100462F8F /* Stocks (BNR Chapter 18 Challenge) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B48A971DAC113100462F8F /* Stocks (BNR Chapter 18 Challenge) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Stocks (BNR Chapter 18 Challenge)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B48A941DAC113100462F8F /* Stocks (BNR Chapter 18 Challenge) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B48A9C1DAC113100462F8F /* Build configuration list for PBXNativeTarget "Stocks (BNR Chapter 18 Challenge)" */;
+			buildPhases = (
+				C6B48A911DAC113100462F8F /* Sources */,
+				C6B48A921DAC113100462F8F /* Frameworks */,
+				C6B48A931DAC113100462F8F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stocks (BNR Chapter 18 Challenge)";
+			productName = "Stocks (BNR Chapter 18 Challenge)";
+			productReference = C6B48A951DAC113100462F8F /* Stocks (BNR Chapter 18 Challenge) */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B48A8D1DAC113100462F8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					C6B48A941DAC113100462F8F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = C6B48A901DAC113100462F8F /* Build configuration list for PBXProject "Stocks (BNR Chapter 18 Challenge)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6B48A8C1DAC113100462F8F;
+			productRefGroup = C6B48A961DAC113100462F8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B48A941DAC113100462F8F /* Stocks (BNR Chapter 18 Challenge) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B48A911DAC113100462F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C663BC8F1DCD65B000EDF85D /* BNRForeignStockHolding.m in Sources */,
+				C640E0331DCC445600B7187C /* BNRStockHolding.h in Sources */,
+				C640E0301DCC43B800B7187C /* main.m in Sources */,
+				C6D8CDCD1DCE789300A0266B /* BNRPortfolio.m in Sources */,
+				C6B48AA11DAC118100462F8F /* BNRStockHolding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C6B48A9A1DAC113100462F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6B48A9B1DAC113100462F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6B48A9D1DAC113100462F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6B48A9E1DAC113100462F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B48A901DAC113100462F8F /* Build configuration list for PBXProject "Stocks (BNR Chapter 18 Challenge)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B48A9A1DAC113100462F8F /* Debug */,
+				C6B48A9B1DAC113100462F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B48A9C1DAC113100462F8F /* Build configuration list for PBXNativeTarget "Stocks (BNR Chapter 18 Challenge)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B48A9D1DAC113100462F8F /* Debug */,
+				C6B48A9E1DAC113100462F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6B48A8D1DAC113100462F8F /* Project object */;
+}
